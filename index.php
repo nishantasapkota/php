@@ -77,7 +77,9 @@ if (!empty($_POST)){
             <h1><?=$name?></h1>
             <h1><?=$email?></h1>
             <h1><?=$gender?></h1>
-            <h1><?=$lang[0]?></h1>
+            <h1><?php foreach($lang as $language){
+                echo $language." &nbsp;";
+            } ?></h1>
             <h1><?=$country?></h1>
         </div>
     </div>
