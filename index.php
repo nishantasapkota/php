@@ -80,7 +80,7 @@ if (!empty($_POST)){
             <h1><?php foreach($lang as $language){
                 echo $language." &nbsp;";
             } ?></h1>
-            <h1><?=$country?></h1>
+            <h1><?=$country?> </h1>
         </div>
     </div>
 </body>
