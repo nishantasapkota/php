@@ -12,12 +12,19 @@
 
 <body>
     <?php
+$name='';
+$email='';
+$gender='';
+$lang='';
+$country='';
+if (!empty($_POST)){
     $name=$_POST['name'];
     $email=$_POST['email'];
     $gender=$_POST['gender'];
     $lang=$_POST['lang'];
     $country=$_POST['country'];
-  ?>
+}
+?>
     <div class="container">
         <form action="" method="post">
             <div class="form-group">
